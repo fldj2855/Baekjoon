@@ -3,3 +3,4 @@ clean_elf.sh
 fuzz*
 test*
 todo*
+gen*
