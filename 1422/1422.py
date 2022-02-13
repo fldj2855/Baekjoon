@@ -1,5 +1,3 @@
 K,N=map(int,input().split())
-a=[]
-exec("a+=[input()];"*K)
-a+=[max(a,key=lambda x:int(x))]*(N-K)
-print(''.join(sorted(a,key=lambda x:x*9)[::-1]))
+a=[int(input())for _ in' '*K]
+print(*sorted(a+[max(a)]*(N-K),key=lambda x:str(x)*9)[::-1],sep='')
