@@ -1,6 +1,3 @@
 fn main() {
-    let mut x = String::new();
-    std::io::stdin().read_line(&mut x).unwrap();
-
-    
+    println!("강한친구 대한육군\n강한친구 대한육군");
 }
